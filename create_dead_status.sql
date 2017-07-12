@@ -1,0 +1,6 @@
+CREATE TABLE `dead_status` (
+  `name`          VARCHAR(16) NOT NULL DEFAULT '',
+  `status`        VARCHAR(16) NOT NULL DEFAULT '',
+  `timestamp`     TIMESTAMP   NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`name`)
+);
